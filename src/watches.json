@@ -6,11 +6,10 @@
     "intl_model": "N/A (JDM Exclusive)",
     "movement": "4R38 (Open Heart)",
     "glass": "Hardlex",
-    "price_jpy": 33000,
-    "price_inr": 28500,
-    "colors": [
-      "Silver/Navy Blue"
-    ],
+    "price_jpy": 33440,
+    "price_india_inr": 28500,
+    "url": "https://store.seikowatches.com/products/scve061",
+    "yodobashi_url": "https://www.yodobashi.com/product/100000001008870453/",
     "image": "images/SCVE061.avif",
     "description": "Elegant open-heart design with a sub-dial layout. Hard to find outside Japan."
   },
@@ -21,11 +20,10 @@
     "intl_model": "SRPK89",
     "movement": "4R36",
     "glass": "Hardlex",
-    "price_jpy": 40700,
-    "price_inr": 26500,
-    "colors": [
-      "Black Dial / Silver Steel"
-    ],
+    "price_jpy": 43120,
+    "price_india_inr": 35000,
+    "url": "https://store.seikowatches.com/products/sbsa255",
+    "yodobashi_url": "https://www.yodobashi.com/product/100000001008389068/",
     "image": "images/SBSA255.avif",
     "description": "The new 37.4mm field watch. Perfectly proportioned for smaller wrists."
   },
@@ -36,11 +34,10 @@
     "intl_model": "SRPJ93",
     "movement": "4R35",
     "glass": "Sapphire (Anti-reflective)",
-    "price_jpy": 72600,
-    "price_inr": 52000,
-    "colors": [
-      "PADI Blue Gradient"
-    ],
+    "price_jpy": 69520,
+    "price_india_inr": 58000,
+    "url": "https://www.seikowatches.com/jp-ja/products/prospex/sbdy123",
+    "yodobashi_url": "https://www.yodobashi.com/product/100000001007844039/",
     "image": "images/SBDY123.avif",
     "description": "PADI diver with a ceramic bezel and sapphire crystal. Incredible value in Japan."
   },
@@ -48,14 +45,13 @@
     "id": 4,
     "name": "Seiko 5 Sports Field GMT",
     "jdm_model": "SBSC009",
-    "intl_model": "SSK023",
+    "intl_model": "SSK023 (Black only)",
     "movement": "4R34 (GMT)",
     "glass": "Curved Hardlex",
-    "price_jpy": 59400,
-    "price_inr": 41700,
-    "colors": [
-      "White/Silver"
-    ],
+    "price_jpy": 49280,
+    "price_india_inr": 40500,
+    "url": "https://www.seikowatches.com/jp-ja/products/5sports/sbsc009",
+    "yodobashi_url": "https://www.yodobashi.com/product/100000001008183416/",
     "image": "images/SBSC009.avif",
     "description": "Fixed 24-hour bezel with an independent GMT hand. Very popular for travel."
   },
@@ -66,11 +62,10 @@
     "intl_model": "SRPB41",
     "movement": "4R35",
     "glass": "Box-shaped Hardlex",
-    "price_jpy": 51700,
-    "price_inr": 38500,
-    "colors": [
-      "Deep Blue Gradient"
-    ],
+    "price_jpy": 45760,
+    "price_india_inr": 47000,
+    "url": "https://www.seikowatches.com/jp-ja/products/presage/sary123",
+    "yodobashi_url": "https://www.yodobashi.com/product/100000001004139323/",
     "image": "images/SARY123.avif",
     "description": "The quintessential dress watch. The dial depth is legendary."
   },
@@ -81,11 +76,10 @@
     "intl_model": "SRPE19",
     "movement": "4R35",
     "glass": "Box-shaped Hardlex",
-    "price_jpy": 51700,
-    "price_inr": 36900,
-    "colors": [
-      "Ice Blue"
-    ],
+    "price_jpy": 45760,
+    "price_india_inr": 47000,
+    "url": "https://www.seikowatches.com/jp-ja/products/presage/sary161",
+    "yodobashi_url": "https://www.yodobashi.com/product/100000001005421662/",
     "image": "images/SARY161.avif",
     "description": "A lighter, 'martini' blue version of the cocktail time series."
   },
@@ -96,11 +90,10 @@
     "intl_model": "SRPD53",
     "movement": "4R36",
     "glass": "Hardlex",
-    "price_jpy": 33000,
-    "price_inr": 24500,
-    "colors": [
-      "Blue/Red (Pepsi)"
-    ],
+    "price_jpy": 34320,
+    "price_india_inr": 30000,
+    "url": "https://store.seikowatches.com/products/sbsa003",
+    "yodobashi_url": "https://www.yodobashi.com/product/100000001007659771/",
     "image": "images/SBSA003.avif",
     "description": "The classic SKX successor. Robust, reliable, and a staple for any collection."
   }
