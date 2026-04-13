@@ -1,15 +1,107 @@
 [
   {
     "id": 1,
-    "name": "Seiko Alpinist 'Mountain Glacier'",
-    "jdm_model": "SBDC115",
-    "intl_model": "SPB155",
-    "movement": "6R35",
-    "glass": "Sapphire",
-    "price_jpy": 77000,
-    "price_inr": 62000,
-    "colors": ["Deep Green", "Blue"],
-    "image": "https://placehold.co/600x600?text=SBDC115+Image",
-    "description": "Baby Alpinist without the compass bezel. JDM version often has better QC."
+    "name": "Seiko Selection 'Blue Moon'",
+    "jdm_model": "SCVE061",
+    "intl_model": "N/A (JDM Exclusive)",
+    "movement": "4R38 (Open Heart)",
+    "glass": "Hardlex",
+    "price_jpy": 33000,
+    "price_inr": 28500,
+    "colors": [
+      "Silver/Navy Blue"
+    ],
+    "image": "public/images/SCVE061.avif",
+    "description": "Elegant open-heart design with a sub-dial layout. Hard to find outside Japan."
+  },
+  {
+    "id": 2,
+    "name": "Seiko 5 Sports Field 'Blackout'",
+    "jdm_model": "SBSA255",
+    "intl_model": "SRPK89",
+    "movement": "4R36",
+    "glass": "Hardlex",
+    "price_jpy": 40700,
+    "price_inr": 26500,
+    "colors": [
+      "Black Dial / Silver Steel"
+    ],
+    "image": "public/images/sbsa255.avif",
+    "description": "The new 37.4mm field watch. Perfectly proportioned for smaller wrists."
+  },
+  {
+    "id": 3,
+    "name": "Prospex PADI Special Edition",
+    "jdm_model": "SBDY123",
+    "intl_model": "SRPJ93",
+    "movement": "4R35",
+    "glass": "Sapphire (Anti-reflective)",
+    "price_jpy": 72600,
+    "price_inr": 52000,
+    "colors": [
+      "PADI Blue Gradient"
+    ],
+    "image": "public/images/sbdy123.avif",
+    "description": "PADI diver with a ceramic bezel and sapphire crystal. Incredible value in Japan."
+  },
+  {
+    "id": 4,
+    "name": "Seiko 5 Sports Field GMT",
+    "jdm_model": "SBSC009",
+    "intl_model": "SSK023",
+    "movement": "4R34 (GMT)",
+    "glass": "Curved Hardlex",
+    "price_jpy": 59400,
+    "price_inr": 41700,
+    "colors": [
+      "White/Silver"
+    ],
+    "image": "public/images/sbsc009.avif",
+    "description": "Fixed 24-hour bezel with an independent GMT hand. Very popular for travel."
+  },
+  {
+    "id": 5,
+    "name": "Presage Cocktail 'Blue Moon'",
+    "jdm_model": "SARY123",
+    "intl_model": "SRPB41",
+    "movement": "4R35",
+    "glass": "Box-shaped Hardlex",
+    "price_jpy": 51700,
+    "price_inr": 38500,
+    "colors": [
+      "Deep Blue Gradient"
+    ],
+    "image": "public/images/sary123.avif",
+    "description": "The quintessential dress watch. The dial depth is legendary."
+  },
+  {
+    "id": 6,
+    "name": "Presage Cocktail 'Skydiving'",
+    "jdm_model": "SARY161",
+    "intl_model": "SRPE19",
+    "movement": "4R35",
+    "glass": "Box-shaped Hardlex",
+    "price_jpy": 51700,
+    "price_inr": 36900,
+    "colors": [
+      "Ice Blue"
+    ],
+    "image": "public/images/sary161.avif",
+    "description": "A lighter, 'martini' blue version of the cocktail time series."
+  },
+  {
+    "id": 7,
+    "name": "Seiko 5 Sports 'Pepsi'",
+    "jdm_model": "SBSA003",
+    "intl_model": "SRPD53",
+    "movement": "4R36",
+    "glass": "Hardlex",
+    "price_jpy": 33000,
+    "price_inr": 24500,
+    "colors": [
+      "Blue/Red (Pepsi)"
+    ],
+    "image": "public/images/sbsa003.avif",
+    "description": "The classic SKX successor. Robust, reliable, and a staple for any collection."
   }
 ]
