@@ -27,7 +27,11 @@ function App() {
         {filtered.map(watch => (
           <div key={watch.id} className="bg-white border rounded-xl overflow-hidden shadow-sm">
             <div className="aspect-square bg-gray-100">
-              <img src={watch.image} alt={watch.name} className="w-full h-full object-contain" />
+              <img 
+                src={`${import.meta.env.BASE_URL}${watch.image}`} 
+                alt={watch.name} 
+                className="w-full h-full object-contain"
+              />
             </div>
             <div className="p-6">
               <div className="flex justify-between items-start mb-4">

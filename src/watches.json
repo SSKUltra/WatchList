@@ -11,7 +11,7 @@
     "colors": [
       "Silver/Navy Blue"
     ],
-    "image": "public/images/SCVE061.avif",
+    "image": "images/SCVE061.avif",
     "description": "Elegant open-heart design with a sub-dial layout. Hard to find outside Japan."
   },
   {
@@ -26,7 +26,7 @@
     "colors": [
       "Black Dial / Silver Steel"
     ],
-    "image": "public/images/sbsa255.avif",
+    "image": "images/SBSA255.avif",
     "description": "The new 37.4mm field watch. Perfectly proportioned for smaller wrists."
   },
   {
@@ -41,7 +41,7 @@
     "colors": [
       "PADI Blue Gradient"
     ],
-    "image": "public/images/sbdy123.avif",
+    "image": "images/SBDY123.avif",
     "description": "PADI diver with a ceramic bezel and sapphire crystal. Incredible value in Japan."
   },
   {
@@ -56,7 +56,7 @@
     "colors": [
       "White/Silver"
     ],
-    "image": "public/images/sbsc009.avif",
+    "image": "images/SBSC009.avif",
     "description": "Fixed 24-hour bezel with an independent GMT hand. Very popular for travel."
   },
   {
@@ -71,7 +71,7 @@
     "colors": [
       "Deep Blue Gradient"
     ],
-    "image": "public/images/sary123.avif",
+    "image": "images/SARY123.avif",
     "description": "The quintessential dress watch. The dial depth is legendary."
   },
   {
@@ -86,7 +86,7 @@
     "colors": [
       "Ice Blue"
     ],
-    "image": "public/images/sary161.avif",
+    "image": "images/SARY161.avif",
     "description": "A lighter, 'martini' blue version of the cocktail time series."
   },
   {
@@ -101,7 +101,7 @@
     "colors": [
       "Blue/Red (Pepsi)"
     ],
-    "image": "public/images/sbsa003.avif",
+    "image": "images/SBSA003.avif",
     "description": "The classic SKX successor. Robust, reliable, and a staple for any collection."
   }
 ]
