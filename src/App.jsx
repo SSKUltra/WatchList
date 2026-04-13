@@ -1,10 +1,33 @@
-import { useState } from 'react';
-import watchData from './watches.json';
+import { useState, useEffect } from 'react';
+import Papa from 'papaparse';
 
-const JPY_TO_INR = 0.585; 
+const JPY_TO_INR = 0.585;
+const SHEET_CSV_URL = "https://docs.google.com/spreadsheets/d/e/2PACX-1vTa_4CEt-iQl1UXwYkSacOyx6foY6RGzg-6DsfIiAQ8mOQY0ky5Nj0B9gqf7iK3SoQ6qRT22rnuzc5v/pub?output=csv";
+
+const getDirectDriveUrl = (url) => {
+  if (!url || !url.includes('drive.google.com')) return url;
+  
+  // Extracts the ID between /d/ and the next slash
+  const match = url.match(/\/d\/(.+?)\//);
+  if (match && match[1]) {
+    return `https://lh3.googleusercontent.com/u/0/d/${match[1]}`;
+  }
+  return url;
+};
 
 function App() {
+  const [watchData, setWatchData] = useState([]);
   const [search, setSearch] = useState("");
+
+  useEffect(() => {
+    Papa.parse(SHEET_CSV_URL, {
+      download: true,
+      header: true,
+      complete: (results) => {
+        setWatchData(results.data);
+      }
+    });
+  }, []);
 
   const filtered = watchData.filter(w => 
     w.name.toLowerCase().includes(search.toLowerCase()) || 
@@ -40,13 +63,13 @@ function App() {
               {/* Product Image */}
               <div className="p-8 bg-white aspect-square flex items-center justify-center relative border-b border-slate-100">
                 <img 
-                  src={`${import.meta.env.BASE_URL}${watch.image}`} 
+                  src={getDirectDriveUrl(watch.image)} 
                   alt={watch.name}
                   className="max-h-full object-contain drop-shadow-xl"
                 />
-                <div className="absolute top-4 right-4 bg-slate-900 text-white text-[10px] font-bold px-2 py-1 rounded">
-                  {watch.jdm_model}
-                </div>
+              <div className="absolute top-4 right-4 bg-slate-900 text-white text-[10px] font-bold px-2 py-1 rounded">
+                {watch.jdm_model}
+              </div>
               </div>
               
               <div className="p-6 flex-grow flex flex-col">
