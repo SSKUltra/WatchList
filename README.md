@@ -1,16 +1,27 @@
-# React + Vite
+# Seiko JDM Tracker 2026
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React-based price comparison tool for tracking Seiko JDM models during Japan travel.
 
-Currently, two official plugins are available:
+## Infrastructure
+- **Data Source:** Google Sheets (CSV)
+- **Image Assets:** Google Drive
+- **Stack:** React, Vite, Tailwind CSS, PapaParse
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Google Drive Integration
 
-## React Compiler
+### 1. Updating the Watch List
+The app is connected to a Google Sheet. To update prices or add models:
+1. Open your [**Seiko Watch Trip 2026 Data**](https://drive.google.com/file/d/1nwwrnT7hkhlkP8IpXKAw34n5vbwC3XJm/view?usp=drive_link) sheet.
+2. Edit rows directly. The app will fetch the updated data on the next reload.
+3. Ensure the Sheet remains **"Published to Web"** as a CSV.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 2. Adding Images
+1. Upload images to your dedicated [Google Drive folder](https://drive.google.com/drive/u/0/folders/1FRXx3QVa-DuV11KUaHzPUr8V4NgliNOa).
+2. Set permissions to **"Anyone with the link"**.
+3. Copy the file link and paste it into the `image` column of the Google Sheet.
+4. The app's `getDirectDriveUrl` utility will handle the conversion from a viewer link to a direct asset link.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Deployment
+This project uses GitHub Actions for deployment to GitHub Pages.
+- **Base URL:** `/WatchList/`
+- **Trigger:** Pushing to the `main` branch.
