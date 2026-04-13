@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "name": "Seiko Alpinist 'Mountain Glacier'",
+    "jdm_model": "SBDC115",
+    "intl_model": "SPB155",
+    "movement": "6R35",
+    "glass": "Sapphire",
+    "price_jpy": 77000,
+    "price_inr": 62000,
+    "colors": ["Deep Green", "Blue"],
+    "image": "https://placehold.co/600x600?text=SBDC115+Image",
+    "description": "Baby Alpinist without the compass bezel. JDM version often has better QC."
+  }
+]
